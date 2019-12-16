@@ -42,8 +42,7 @@ Related Efforts:
 This program is made by Kennard Wang who also participate in the project maintenance.
 
 Contributing:
-Please subscribe my bilibili channel: ( https://space.bilibili.com/36114856/?share_source=copy_link
-&share_medium=iphone&bbid=Z3473032EEA73B3444FD901FB17E056CEB55&ts=1572417438 )
+Please subscribe my bilibili channel: ( https://space.bilibili.com/36114856/?share_source=copy_link )
 I'm willing to share more interesting programs made by myself with you.
 
 License:
