@@ -47,7 +47,9 @@ Please subscribe my bilibili channel: ( https://space.bilibili.com/36114856/?sha
 I'm willing to share more interesting programs made by myself with you.
 
 License:
-COPYRIGHT©KENNARD WANG  
+Copyright (C) 2019 KENNARD WANG  
+The only permission of the code copy is for Java Code Learning, I hope that anyone who uses my code could inform 
+me at first and give the credit.
 
 
 ### Author@Kennard Wang     2019.11.5 ###
