@@ -18,7 +18,7 @@
 ### Usage
 + Installation
 
-  > This project doesn't need external plugins. You can import my java code into java IDEs to run, or launch the .exe document directly.
+  > This project doesn't need external plugins. You can import my java code into java IDE to run, or launch the .jar document directly.
 + Sort
 
   > 1. Click the "File" and choose "Open File" option.
