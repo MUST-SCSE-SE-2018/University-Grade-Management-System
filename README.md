@@ -1,54 +1,47 @@
-# UGMS-GUI-
-University Grade Management System implemented by GUI
+# University Grade Management System GUI Version
+### Item List
++ ReadMe.txt
++ Source File (contains the source code .java)
++ Design Report (PDF)
++ UGMS(GUI).exe
++ Test documents as backups
+------
+### Version Info
++ The latest version is UGMS(GUI)_2.1
+------
+### Language
++ Java
+------
+### Environment
++ JDK_8u202 (Recommend) or higher
+------
+### Usage
++ Installation
 
-Item List:
-1. ReadMe.txt
-2. Source File (contains the source code .java)
-3. Design Report (PDF)
-4. UGMS(GUI).exe
-5. Test documents as backups
+  > This project doesn't need external plugins. You can import my java code into java IDEs to run, or launch the .exe document directly.
++ Sort
 
-Background Info: 
-This project is used for University Grade Management. The latest version is UGMS(GUI)_2.1.
+  > 1. Click the "File" and choose "Open File" option.
+  > 2. Choose a .txt course file and select the sort approach.
+  > 3. Click the "Display" button.
+  > PS: GPA sort needs to import required files first !
++ Query
 
-Compilation Language: Java
+  > 1. Click the "File" and choose "Import File" option.
+  > 2. Import all the .txt course files which you need by this way and then select the query approach.
+  > 3. Remember to input the corresponding query message.  
+       Example:  
+       ID:  1X09853X-X011-XXXX  
+       Surname: Weng  
+       WildCard(surname): W, We, We, Weng ... ( First letter must be upper case )  
+       GPA Ranging: > 3.0, = 3.0, < 3.0, >= 3,0, <= 3.0 ( Need white space between the operator and the number )
+  > 4. Click the "Query" button.
+------
+### License  
++ Copyright©KENNARD_WANG 2019.11.5
 
-Environment:
-Recommend to use JDK_8u202 or more advanced.
-
-Usage:
-    Installation:
-    This project doesn't need installation. You can import my java code into java IDEs to run, 
-    or launch the .exe document directly.
-
-    Sort:
-    1. Click the "File" and choose "Open File" option.
-    2. Choose a .txt course file and select the sort approach.
-    3. Click the "Display" button.
-    PS: GPA sort needs to import required files first !
-
-    Query:    
-    1. Click the "File" and choose "Import File" option.
-    2. Import all the .txt course files which you need by this way and then select the query approach.
-    3. Remember to input the corresponding query message.
-        Example:
-        ID:  1X09853X-X011-XXXX
-        Surname: Weng
-        WildCard(surname): W, We, We, Weng ... ( First letter must be upper case )
-        GPA Ranging: > 3.0, = 3.0, < 3.0, >= 3,0, <= 3.0 ( Need white space between the operator and the number )
-    4. Click the "Query" button.
-
-Related Efforts:
-This program is made by Kennard Wang who also participate in the project maintenance.
-
-Contributing:
-Please subscribe my bilibili channel: ( https://space.bilibili.com/36114856/?share_source=copy_link )
-I'm willing to share more interesting programs made by myself with you.
-
-License:
-Copyright (C) 2019 KENNARD WANG  
-The only permission of the code copy is for Java Code Learning, I hope that anyone who uses my code could inform 
-me at first and give the credit.
-
-
-### Author@Kennard Wang     2019.11.5 ###
+  > If you want to make a reference, please give me credit by adding the foregoing license, thanks.
+------
+### Author
++ Kennard Wang
+------
