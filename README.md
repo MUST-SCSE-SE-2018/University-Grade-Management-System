@@ -38,10 +38,8 @@
   > 4. Click the "Query" button.
 ------
 ### License  
-+ Copyright©KENNARD_WANG 2019.11.5
-
-  > If you want to make a reference, please give me credit by adding the foregoing license, thanks.
++ [MIT License](https://github.com/KennardWang/UGMS_GUI/blob/master/LICENSE)
 ------
 ### Author
-+ Kennard Wang
++ Kennard Wang ( 2019.11.5 )
 ------
