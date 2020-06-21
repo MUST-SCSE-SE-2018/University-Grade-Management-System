@@ -1,19 +1,15 @@
 # University Grade Management System GUI Version
-### Item List
-+ ReadMe.txt
-+ Source File (contains the source code .java)
-+ Design Report (PDF)
-+ UGMS(GUI).exe
-+ Test documents as backups
+### Software Demo
+![UGMS](https://kennardwang.github.io/ImageSource/Project/UGMS.png)
+
+------
+### Development Environment
++ Language: Java
++ Software: Eclipse 2018-12 (4.10.0)
++ JDK: 8u202
 ------
 ### Version Info
-+ The latest version is UGMS(GUI)_2.1
-------
-### Language
-+ Java
-------
-### Environment
-+ JDK_8u202 (Recommend) or higher
++ v2.1
 ------
 ### Usage
 + Installation
