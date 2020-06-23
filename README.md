@@ -4,9 +4,9 @@
 
 ------
 ### Development Environment
-+ Language: **Java**
-+ JDK: **8u202**
-+ IDE: **Eclipse 2018-12 (4.10.0)**
++ Language : **Java**
++ JDK : **8u202**
++ IDE : **Eclipse 2018-12 (4.10.0)**
 ------
 ### Version Info
 + v2.1
