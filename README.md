@@ -1,4 +1,4 @@
-# University Grade Management System GUI Version
+# University-Grade-Management-System
 ### Software Demo
 ![UGMS](https://kennardwang.github.io/ImageSource/Project/UGMS.png)
 
