@@ -1486,7 +1486,7 @@ public class GUI extends JFrame {
 		lblNewLabel.setBounds(31, 149, 81, 21);
 		contentPane.add(lblNewLabel);
 		
-		//默认模式为 FileDialog.LOAD
+		//默锟斤拷模式为 FileDialog.LOAD
 		openDia = new FileDialog(fr,"My Opening",FileDialog.LOAD);	 
 		myEvent();
 				
@@ -1779,18 +1779,20 @@ public class GUI extends JFrame {
 	    	case 1:
 	    		if(ReqInput.getText().equals(st[i].id)) {
 	    	    	
-	    			String str = st[i].sur + "," + st[i].giv + "  " + st[i].id + "\n\n" + "Taken Course: \n";
+	    			String str = ""; 
 	    	    	
 	    			// for jth course
 	    			for(int j = 0; j < st[i].takecourse.length; ++j) {
 	    	    		
-	    				if(st[i].takecourse[j] == null) {continue;} // skip the empty course
-	    	    			str += st[i].takecourse[j] + ":  " + st[i].Credit2Grade(st[i], j) + "\n";
+	    				if(st[i].takecourse[j] != null) {
+	    					str = st[i].sur + "," + st[i].giv + "  " + st[i].id + "\n\n" + "Taken Course: \n";
+	    					str += st[i].takecourse[j] + ":  " + st[i].Credit2Grade(st[i], j) + "\n";
+	    					str += "\nGPA:  " + st[i].GPA;
+	    				} 	
 	    	    		
 	    			}
 	    	    	    	    
-	    			str += "\nGPA:  " + st[i].GPA;
-	    	    		    	    		
+    	    		
 	    			JOptionPane.showMessageDialog(null, str); // output the message
 	    	    }	    	    
 	    	    break;
@@ -1806,19 +1808,17 @@ public class GUI extends JFrame {
 	    	    
 	    	    if(ReqInput.getText().equals(st[i].sur)) {
 	    	    	
-	    	    	++t2; // number of outcome +1
-	    	    	
-	    	    	str2 += st[i].sur + "," + st[i].giv + "  " + st[i].id + "\n" + "Taken Course: \n";
-	    	    	
 	    	    	for(int j = 0; j < st[i].takecourse.length; ++j) {
 	    	    		
-	    	    		if(st[i].takecourse[j] == null) {continue;} // skip the empty course
-	    	    		str2 += st[i].takecourse[j] + ":  " + st[i].Credit2Grade(st[i], j) + "\n";
-	    	    		
+	    	    		if(st[i].takecourse[j] != null) {
+	    	    			++t2; // number of outcome +1
+	    	    			str2 += st[i].sur + "," + st[i].giv + "  " + st[i].id + "\n" + "Taken Course: \n";
+	    	    			str2 += st[i].takecourse[j] + ":  " + st[i].Credit2Grade(st[i], j) + "\n";
+	    	    			str2 += "GPA:  " + st[i].GPA + "\n\n";
+	    	    		} 
+	    	    			
 	    	    	}
-	    	        	   	    	    	    	    	
-	    	    	str2 += "GPA:  " + st[i].GPA + "\n\n";
-	    	    		    	    			    	    	    
+    	    			    	    	    
 	    	    }		
 	    	    break;    	    	
 	    	    
@@ -1837,16 +1837,20 @@ public class GUI extends JFrame {
 				    }   
 	    	    	    	    	
 		    	    if(r.matcher(st[i].sur).matches()) {
-		    	        str3 += st[i].sur + "," + st[i].giv + "  " + st[i].id + "\n" + "Taken Course: \n";
+		    	      
 		    	    	for(int j = 0; j < st[i].takecourse.length; ++j) {
 		    	    		
-		    	    		if(st[i].takecourse[j] == null) {continue;} // skip the empty course
-		    	    		str3 += st[i].takecourse[j] + ":  " + st[i].Credit2Grade(st[i], j) + "\n";
+		    	    		if(st[i].takecourse[j] != null) {
+		    	    			str3 += st[i].sur + "," + st[i].giv + "  " + st[i].id + "\n" + "Taken Course: \n";
+		    	    			str3 += st[i].takecourse[j] + ":  " + st[i].Credit2Grade(st[i], j) + "\n";
+		    	    			str3 += "GPA:  " + st[i].GPA + "\n\n";
+				    	    	++t;
+		    	    		} 
+		    	    		
 		    	    		
 		    	    	}
 		    	    	
-		    	    	str3 += "GPA:  " + st[i].GPA + "\n\n";
-		    	    	++t;
+		    	    	
 		    	    		    	    		 
 		    	    }	
 		    	    
