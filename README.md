@@ -118,15 +118,15 @@
 | Variable / Function Name | Data Structure |	Description |
 |:---:|:---:|:---:|
 | contentPane	| JPanel | The JFrame window |
-| fr |JFrame | The Frame |
+| fr | JFrame | The Frame |
 | ReqInput | JTextField	| The input of query |
 | CourseInput |	JTextField |	The input of course name |
-| Screen |JTextArea	| The main screen |
+| Screen | JTextArea	| The main screen |
 | CourseList| JTextArea|	The list of course |
-| RadioButton 1&2	| JRadioButton | The ascending & descending button |
+| RadioButton 1 & 2	| JRadioButton | The ascending & descending button |
 | lblCredit	| JLabel | The credit label |
 | lblNumberOfStudents	| JLabel | The label of the student number |
-| AddButton&DeleteButton | JButton | Add&Delete course |
+| AddButton & DeleteButton | JButton | Add & Delete course |
 | Choice_1 | JComboBox\<String> | Sort choice |
 | MenuBar	| JMenuBar |	Menu bar |
 | File |	JMenu |	Menu name |
@@ -151,23 +151,23 @@
 
 ### Core Algorithms
 + Sort
-> Selection Sort, the complexity is O(N^2).
+> Selection Sort, the complexity is $O(N^2)$.
 
 + Search
-> Sequential Search, search by each inputted course individually, the complexity is O(N^2).
+> Sequential Search, search by each inputted course individually, the complexity is $O(N^2)$.
 
 + Analysis
-> This program is based on a once-input store, which means each time you input a course, the UGMS stores data of all the students who take this course at the same time. The number of one file data is less than 1000, so it is reasonable for a standard PC to execute for/while loop within 1 second ( Total about 10^6, and 10^8 times per second ).
+> This program is based on a once-input store, which means each time you input a course, the UGMS stores data of all the students who take this course simultaneously. The number of one file data is less than 1000, so it is reasonable for a standard PC to execute for/while loop within 1 second ( Total about $10^6$, and PC can compute $10^8$ per second ).
 
 ------
 
 ### Features
 1. Implement a user-friendly GUI.
 2. Nice output format ( using JTable ).
-3. Implement some advanced query functions ( such as Surname Wild Card, GPA ranging ). 
+3. Implement advanced query functions ( such as Surname Wild Card, GPA ranging ). 
 4. Allow the user to add and delete courses according to their requirement.
 5. Can execute without other plugins and environments except JRE.
-6. The UGMS would prompt you sometimes by showing a message window or a check box.
+6. The UGMS sometimes prompts you by showing a message window or a check box.
 7. No need to worry about sort time ( < 1 sec ).
 
 ------
