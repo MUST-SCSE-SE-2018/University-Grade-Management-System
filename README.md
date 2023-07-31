@@ -1,32 +1,29 @@
 # University-Grade-Management-System
 
-> After attending the course LP002, Kennard completed a challengeable coursework, 
-> with helping his instructor Henry Hong-Ning Dai to design a software for grade management.
+### Demo
 
-------
-
-### Software Demo
-
-![UGMS](https://kennardwang.github.io/ImageSource/University-Grade-Management-System/UGMS.png)
+<div align=center>
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/UGMS.png" width="70%" />
+</div>
 
 ------
 
 ### Development Environment
 
-| Description | Specification |
+| <!--> | <!--> |
 |:---:|:---:|
-| System | Windows 10 |
+| System | Windows 10 x64 |
 | Language | Java |
 | JDK | 8u202 |
 | IDE | Eclipse 2018-12 (4.10.0) |
 
 ------
 
-### User Manual
+### Usage
 + Installation
   > 1. [Download](https://github.com/KennardWang/University-Grade-Management-System/releases) **jdk 8u202** and install.
   > 2. [Download](https://github.com/KennardWang/University-Grade-Management-System/releases) **UGMS_v2.1.jar**.
-  > 3. Does not need other external plugins. You can execute jar file by `java -jar UGMS_v2.1.jar`.
+  > 3. Please execute binary file by `java -jar UGMS_v2.1.jar` without any external plugins.
 
 + Sort
   > 1. Click the **File** and choose **Open File** option.
@@ -50,23 +47,35 @@
 
 ### Design
 
-![general](https://kennardwang.github.io/ImageSource/University-Grade-Management-System/general.png)
+<div align=center>
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/general.png" width="70%" />
+</div>
+
+<br>
 
 + Student Class
 
-![student](https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Student.png)
+<div align=center>
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Student.png" width="70%" />
+</div>
 
 + Course Class
 
-![course](https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Course.png)
+<div align=center>
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Course.png" width="70%" />
+</div>
 
 + SortAlgorithms Class
 
-![sort](https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Sort.png)
+<div align=center>
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Sort.png" width="70%" />
+</div>
 
 + GUI Class
 
-![gui](https://kennardwang.github.io/ImageSource/University-Grade-Management-System/GUI.png)
+<div align=center>
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/GUI.png" width="70%" />
+</div>
 
 ------
 
@@ -160,12 +169,12 @@
 4. Allow the user to add and delete courses according to their requirement.
 5. Can execute without other plugins and environment except JRE.
 6. The UGMS would prompt you sometimes by showing a message window or a check box.
-7. Unnecessary to worry about time consumption of sorting ( < 1 sec ).
+7. No need to worry about sort time ( < 1 sec ).
 
 ------
 
 ### License  
-+ [MIT License](https://github.com/KennardWang/University-Grade-Management-System/blob/master/LICENSE)
++ [MIT License](https://github.com/KennardWang/University-Grade-Management-System/blob/main/LICENSE)
 
 ------
 
