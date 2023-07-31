@@ -13,8 +13,7 @@
 | <!--> | <!--> |
 |:---:|:---:|
 | System | Windows 10 x64 |
-| Language | Java |
-| JDK | 8u202 |
+| Language | Java 8 |
 | IDE | Eclipse 2018-12 (4.10.0) |
 
 ------
