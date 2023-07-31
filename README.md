@@ -84,47 +84,47 @@
 | Variable / Function Name | Data Structure |	Description |
 |:---:|:---:|:---:|
 | sur/giv/id/score/Grade/GPA | Basic type (String/int/double) | The basic info of each student including surname, given name, id, score, Grade, GPA and so on |
-| credit | 2-dimension array	| The student's real credit of every course. ( Parsed by Grade ) |
-| takecourse | String array	| All the courses that the student takes |
+| credit | 2-dimension array	| The student's real credit for every course. ( Parsed by Grade ) |
+| takecourse | String array	| All the courses the student takes |
 | courseCredit | Int array | Corresponding credit of each taken course |
 | Student()	| / |	Constructor |
 | getsur(), getgiv(), getid(), getscore(), getGrade(), getStuData()	| / |	Methods to read data from the source file and return corresponding value |
 | Grade2Credit() | /	| Parse Grade to credit |
 | Credit2Grade() | / | Parse credit to Grade |
-| computeGPA() | / | Using credit/takecourse/courseCredit to compute the total GPA |
+| computeGPA() | / | Using credit/takecourse/courseCredit to calculate the total GPA |
 
 + Course Class
 
 | Variable / Function Name | Data Structure |	Description |
 |:---:|:---:|:---:|
-| course/coName/credit/num | Basic type (String/int) |Basic info of a course|
-| GraCount | Int array | Count the number of students of each Grade |
+| course/coName/credit/num | Basic type (String/int) | Basic info of a course|
+| GraCount | Int array | Count the number of students in each Grade |
 | highscore/lowscore/averscore | Int/double | Store the highest/lowest/average score of each course |
 | Course() | / | Constructor |
-| gerCourseData()	| /	| Read data from the source file and return corresponding value |
+| gerCourseData()	| /	| Read data from the source file and return the corresponding value |
 
 + SortAlgorithms Class
 
 | Variable / Function Name | Data Structure |	Description |
 |:---:|:---:|:---:|
 | exchange() | / | Exchange two elements in an array|
-| less() | / |Compare two elements ( if former < latter then return true )|
-| sort() |/|	Main sort algorithm |
+| less() | / | Compare two elements ( if former < latter then return true )|
+| sort() | / |	Main sort algorithm |
 | sortField()	| / |	Sort data in one aspect |
-| sortWay() |	Stack |	Using stack to implement descent order |
+| sortWay() |	Stack |	Using stack to implement descending order |
 
 + GUI Class
 
 | Variable / Function Name | Data Structure |	Description |
 |:---:|:---:|:---:|
-| contentPane	| JPanel |The JFrame window |
-| fr |JFrame |The Frame|
+| contentPane	| JPanel | The JFrame window |
+| fr |JFrame | The Frame |
 | ReqInput | JTextField	| The input of query |
 | CourseInput |	JTextField |	The input of course name |
 | Screen |JTextArea	| The main screen |
 | CourseList| JTextArea|	The list of course |
 | RadioButton 1&2	| JRadioButton | The ascending & descending button |
-| lblCredit	| JLabel |The credit label  |
+| lblCredit	| JLabel | The credit label |
 | lblNumberOfStudents	| JLabel | The label of the student number |
 | AddButton&DeleteButton | JButton | Add&Delete course |
 | Choice_1 | JComboBox\<String> | Sort choice |
@@ -149,24 +149,24 @@
 
 ------
 
-### Core Algorithm
-+ Sorting
+### Core Algorithms
++ Sort
 > Selection Sort, the complexity is O(N^2).
 
-+ Searching
++ Search
 > Sequential Search, search by each inputted course individually, the complexity is O(N^2).
 
 + Analysis
-> This program is based on once-input store, which means each time you input a course, the UGMS stores data of all the students who take this course at the same time. The number of one file data is less than 1000, so it is reasonable for a normal PC to execute for/while loop within 1 second ( Totally about 10^6, and 10^8 times per second for normal PC ).
+> This program is based on a once-input store, which means each time you input a course, the UGMS stores data of all the students who take this course at the same time. The number of one file data is less than 1000, so it is reasonable for a standard PC to execute for/while loop within 1 second ( Total about 10^6, and 10^8 times per second ).
 
 ------
 
-### Feature
-1. Implement user-friendly GUI.
+### Features
+1. Implement a user-friendly GUI.
 2. Nice output format ( using JTable ).
 3. Implement some advanced query functions ( such as Surname Wild Card, GPA ranging ). 
 4. Allow the user to add and delete courses according to their requirement.
-5. Can execute without other plugins and environment except JRE.
+5. Can execute without other plugins and environments except JRE.
 6. The UGMS would prompt you sometimes by showing a message window or a check box.
 7. No need to worry about sort time ( < 1 sec ).
 
