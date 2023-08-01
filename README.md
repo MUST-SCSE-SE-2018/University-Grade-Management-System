@@ -93,13 +93,13 @@ It is a project of MUST course ***LP002-Data Structure***, which is a grade mana
 ## Design
 
 <div align=center>
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/general.png" width="720px" />
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/general.png" width="70%" />
   <br>
   <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/GUI.png" height="400px" />
   <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Student.png" height="400px" />
   <br>
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Course.png" height="300px" />
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Sort.png" height="300px" />
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Course.png" height="250px" />
+  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Sort.png" height="250px" />
   
 </div>
 
