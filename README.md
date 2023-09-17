@@ -1,9 +1,15 @@
 # University-Grade-Management-System
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/KennardWang/University-Grade-Management-System" />
-  <img src="https://img.shields.io/github/license/KennardWang/University-Grade-Management-System" />
-  <img src="https://img.shields.io/badge/maintenance-No-red" />
+  <img src="https://img.shields.io/github/stars/KennardWang/University-Grade-Management-System?style=for-the-badge&color=FDEE21" />
+  &nbsp;
+  <img src="https://img.shields.io/github/forks/KennardWang/University-Grade-Management-System?style=for-the-badge&color=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/windows-0078D6?logo=windows&logoColor=white&style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Java-ED8B00.svg?logo=java&logoColor=white&style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Eclipse-2C2255?logo=eclipse&logoColor=white&style=for-the-badge" />
 </div>
 
 <br>
@@ -183,13 +189,13 @@ The program adopts **Selection Sort** with the complexity of $O(N^2)$ and **Sequ
 
 ## Releases
 
-[The latest version](https://github.com/KennardWang/University-Grade-Management-System/releases/tag/v2.1).
+[![badge](https://img.shields.io/badge/release-v2.1-FF7800)](https://github.com/KennardWang/University-Grade-Management-System/releases/tag/v2.1)
 
 
 
 ## Maintainers
 
-[@KennardWang](https://github.com/KennardWang).
+![badge](https://img.shields.io/badge/maintenance-NO-EF2D5E) [@KennardWang](https://github.com/KennardWang)
 
 
 
@@ -201,4 +207,4 @@ Feel free to [open an issue](https://github.com/KennardWang/University-Grade-Man
 
 ## License
 
-[MIT](LICENSE) © Kennard Wang. ( 2019.11.5 )
+[![license](https://img.shields.io/github/license/KennardWang/University-Grade-Management-System)](LICENSE) © Kennard Wang ( 2019.11.5 )
