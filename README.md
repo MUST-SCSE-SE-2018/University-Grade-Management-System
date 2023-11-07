@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  [![description](https://img.shields.io/badge/project-Individual-1F1F1F?style=for-the-badge)](https://github.com/KennardWang/University-Grade-Management-System)
+  [![description](https://img.shields.io/badge/project-Individual-FFB7C5?style=for-the-badge)](https://github.com/KennardWang/University-Grade-Management-System)
   &nbsp;
   [![stars](https://img.shields.io/github/stars/KennardWang/University-Grade-Management-System?style=for-the-badge&color=FDEE21)](https://github.com/KennardWang/University-Grade-Management-System/stargazers)
   &nbsp;
@@ -12,7 +12,7 @@
   
   <img src="https://img.shields.io/badge/windows-0078D6?logo=windows&logoColor=white&style=for-the-badge" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Java-ED8B00.svg?logo=java&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   &nbsp;
   <img src="https://img.shields.io/badge/Eclipse-2C2255?logo=eclipse&logoColor=white&style=for-the-badge" />
 </div>
@@ -20,7 +20,7 @@
 <br>
 
 <div align=center>
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/UGMS.png" width="70%" />
+  <img src="https://kennardwang.github.io/Image-Source/University-Grade-Management-System/UGMS.png" width="70%" />
 </div>
 
 <br>
@@ -104,13 +104,13 @@ It is a project of MUST course ***LP002-Data Structure***, which is a grade mana
 ## Design
 
 <div align=center>
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/general.png" width="70%" />
+  <img src="https://kennardwang.github.io/Image-Source/University-Grade-Management-System/general.png" width="70%" />
   <br>
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/GUI.png" height="400px" />
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Student.png" height="400px" />
+  <img src="https://kennardwang.github.io/Image-Source/University-Grade-Management-System/GUI.png" height="400px" />
+  <img src="https://kennardwang.github.io/Image-Source/University-Grade-Management-System/Student.png" height="400px" />
   <br>
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Course.png" height="200px" />
-  <img src="https://kennardwang.github.io/ImageSource/University-Grade-Management-System/Sort.png" height="200px" />
+  <img src="https://kennardwang.github.io/Image-Source/University-Grade-Management-System/Course.png" height="200px" />
+  <img src="https://kennardwang.github.io/Image-Source/University-Grade-Management-System/Sort.png" height="200px" />
   
 </div>
 
